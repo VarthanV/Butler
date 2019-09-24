@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Course Bot</title>
+    <link rel="stylesheet" href="styles/layout.css" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="images/logo.jpg">
+    <style>
+      .dropbtn {
+        background-color: #232323;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        font-size: 17px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #919191;
+        background-color: #232323;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        font-size: 17px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #919191;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #ddd;
+        text-decoration: underline;
+        color: orange;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown:hover .dropbtn {
+        text-decoration: underline;
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+     
+      <!-- <div class="wrapper row1">
+            <header id="header" class="clear">
+              <div id="hgroup">
+                <h1><a href="index.html"> Butler </a></h1>
+                <h2> A Handmade Extension for Cliq </h2>
+              </div>
+              <div style="float:right">
+              <div class="dropdown" style="font-size:17px; font-family:Georgia, 'Times New Roman', Times, serif; color:#919191; background-color:#232323;">
+                <button class="dropbtn">BOTS</button>
+                <div class="dropdown-content">
+                  <a href="#">GEN BOT</a>
+                  <a href="#">COURSE BOT</a>
+                  <a href="resumebot.html">RESUME BOT</a>
+                </div>
+              </div>
+            </div>
+              
+              
+            </header>
+          
+          
+          </div> -->
+
+      <!-- <div
+        style="width:100%;background-color:#333333;height:120px;align-items: center"
+      >
+        <div
+          style="display:inline-block;height:100px;float:left;padding:30px;margin-left:50px"
+        >
+          <div style="width:100%;font-size:36px;color:#C0BAB6">Butler</div>
+          <div style="width:100%;font-size:13px;color:#C0BAB6">
+            A Handmade Extension for Cliq
+          </div>
+        </div>
+        <div
+          style="display:inline-block;width:100px;height:100px;float:right;padding:30px;margin-right:20px"
+        >
+          <div
+            class="dropdown"
+            style="font-size:17px; font-family:Georgia, 'Times New Roman', Times, serif; color:#919191; background-color:#232323;"
+          >
+            <button class="dropbtn">Bots</button>
+            <div class="dropdown-content">
+              <a href="genbot.html">Gen Bot</a>
+              <a href="coursebot.html">Course Bot</a>
+              <a href="resumebot.html">Resume Bot</a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div
+        style="width:100%;background-color:#333333;height:100px;align-items: center"
+      >
+        <div
+          style="display:inline-block;height:100px;float:left;padding:15px;margin-left:50px"
+        >
+          <div style="width:100%;font-size:36px;color:#C0BAB6">Butler</div>
+          <div style="width:100%;font-size:13px;color:#C0BAB6">
+            A Handmade Extension for Cliq
+          </div>
+        </div>
+
+        <div
+        style="display:inline-block;width:100px;height:100px;float:right;padding:40px;margin-right:10px"
+        >
+          <div class="dropdown">
+            <a href="index.html" class="dropbtn">Home</a>
+          </div>          
+        </div>
+        <div
+          style="display:inline-block;width:100px;height:100px;float:right;padding:25px;margin-right:20px"
+        >
+          <div
+            class="dropdown"
+            style="font-size:17px; font-family:Georgia, 'Times New Roman', Times, serif; color:#919191; background-color:#232323;"
+          >
+            <button class="dropbtn">Bots</button>
+            <div class="dropdown-content">
+              <a href="genbot.html">Gen Bot</a>
+              <a href="coursebot.html">Course Bot</a>
+              <a href="resumebot.html">Resume Bot</a>
+            </div>
+          </div>
+        </div>
+  
+        
+      </div>
+      <div id="instructions" style="width:100%;text-align:center;margin:20px">
+        <div
+          style="width:90%;display:inline-block;margin:10px;text-align:center"
+        >
+        
+          <div
+            id="heading"
+            style="width:100%;float:left;margin-bottom:20px;display:block"
+          >
+            <div
+              style="display:inline-block;width:35px;height:35px;background-color:green;float:left;font-size:25px;border-radius: 3px"
+            >
+              1
+            </div>
+            <div
+              style="display:inline-block;float:left;padding:7px;margin-left:10px"
+            >
+              STEP 1
+            </div>
+          </div>
+          <br />
+          <center>
+            <div
+              id="image"
+              style="height:500px;background-color:#ddd;width:70px%;margin-top:40px;padding:20px;background-image:url('coursebot/image2.png');background-repeat:no-repeat;background-size:cover;border-radius:5px;"
+            ></div>
+          </center>
+          <center>
+            <div
+              id="description"
+              style="text-align:left;width:93%;margin-top:20px"
+            >
+              <p style="text-align:justify;text-indent:50px">
+              Just Greet the Course Bot ,Course Bot will describe about it ,You can proceed by selecting the YES Button
+              </p>
+            </div>
+          </center>
+        </div>
+        <div
+          style="width:90%;display:inline-block;margin:10px;text-align:center"
+        >
+          <div
+            id="heading"
+            style="width:100%;float:left;margin-bottom:20px;display:block"
+          >
+            <div
+              style="display:inline-block;width:35px;height:35px;background-color:green;float:left;font-size:25px;border-radius: 3px"
+            >
+              2
+            </div>
+            <div
+              style="display:inline-block;float:left;padding:7px;margin-left:10px"
+            >
+              STEP 2
+            </div>
+          </div>
+          <br />
+          <center>
+            <div
+              id="image"
+              style="height:500px;background-color:#ddd;width:90%;margin-top:40px;padding:20px;background-image:url('coursebot/image.png');background-repeat:no-repeat;background-size:cover;border-radius:5px;"
+            ></div>
+          </center>
+          <center>
+            <div
+              id="description"
+              style="text-align:left;width:93%;margin-top:20px"
+            >
+              <p style="text-align:justify;text-indent:50px">
+                Enter the Topic that  you want to learn ,Most of the popular topics will be available in our  API ,For Example React Js
+              </p>
+            </div>
+          </center>
+        </div>
+        <div
+          style="width:90%;display:inline-block;margin:10px;text-align:center"
+        >
+          <div
+            id="heading"
+            style="width:100%;float:left;margin-bottom:20px;display:block"
+          >
+            <div
+              style="display:inline-block;width:35px;height:35px;background-color:green;float:left;font-size:25px;border-radius: 3px"
+            >
+              3
+            </div>
+            <div
+              style="display:inline-block;float:left;padding:7px;margin-left:10px"
+            >
+              STEP 3
+            </div>
+          </div>
+          <br />
+          <center>
+            <div
+              id="image"
+              style="height:500px;background-color:#ddd;width:90%;margin-top:40px;padding:20px;background-image:url('coursebot/image4.png');background-repeat:no-repeat;background-size:cover;border-radius:5px;"
+            ></div>
+          </center>
+          <center>
+            <div
+              id="description"
+              style="text-align:left;width:93%;margin-top:20px"
+            >
+              <p style="text-align:justify;text-indent:50px">
+                Course Bot will reccomend you the popular Courses from Udemy ,their price and <b> Detailed Link</b> ,If you
+                </b>
+              </p>
+            </div>
+          </center>
+        </div>
+        <div
+          style="width:90%;display:inline-block;margin:10px;text-align:center"
+        >
+          <div
+            id="heading"
+            style="width:100%;float:left;margin-bottom:20px;display:block"
+          >
+            <div
+              style="display:inline-block;width:35px;height:35px;background-color:green;float:left;font-size:25px;border-radius: 3px"
+            >
+              4
+            </div>
+            <div
+              style="display:inline-block;float:left;padding:7px;margin-left:10px"
+            >
+              STEP 4
+            </div>
+          </div>
+          <br />
+          <center>
+            <div
+              id="image"
+              style="height:500px;background-color:#ddd;width:90%;margin-top:40px;padding:20px;background-image:url('coursebot/image3.png');background-repeat:no-repeat;background-size:cover;border-radius:5px;"
+            ></div>
+          </center>
+          <center>
+            <div
+              id="description"
+              style="text-align:left;width:93%;margin-top:20px"
+            >
+              <p style="text-align:justify;text-indent: 50px">
+              If you need to wish to learn using free resources from Youtube you may choose the <b> YouTube Option</b> Top Courses from YouTube will be fetched
+              </p>
+            </div>
+          </center>
+        </div>
+        <div
+        style="width:90%;display:inline-block;margin:10px;text-align:center"
+      >
+        <div
+          id="heading"
+          style="width:100%;float:left;margin-bottom:20px;display:block"
+        >
+          <div
+            style="display:inline-block;width:35px;height:35px;background-color:green;float:left;font-size:25px;border-radius: 3px"
+          >
+            5
+          </div>
+          <div
+            style="display:inline-block;float:left;padding:7px;margin-left:10px"
+          >
+            STEP 5
+          </div>
+        </div>
+        <br />
+        <center>
+          <div
+            id="image"
+            style="height:500px;background-color:#ddd;width:90%;margin-top:40px;padding:20px;background-image:url('coursebot/image7.png');background-repeat:no-repeat;background-size:cover;border-radius:5px;"
+          ></div>
+        </center>
+        <center>
+          <div
+            id="description"
+            style="text-align:left;width:93%;margin-top:20px"
+          >
+            <p style="text-align:justify;text-indent: 50px">
+            If you need to know about Jobs available for the technology you can choose the <b> Jobs</b> option 
+            </p>
+          </div>
+        </center>
+      </div>
+      <div
+      style="width:90%;display:inline-block;margin:10px;text-align:center"
+    >
+      <div
+        id="heading"
+        style="width:100%;float:left;margin-bottom:20px;display:block"
+      >
+        <div
+          style="display:inline-block;width:35px;height:35px;background-color:green;float:left;font-size:25px;border-radius: 3px"
+        >
+          6
+        </div>
+        <div
+          style="display:inline-block;float:left;padding:7px;margin-left:10px"
+        >
+          STEP 6
+        </div>
+      </div>
+      <br />
+      <center>
+        <div
+          id="image"
+          style="height:500px;background-color:#ddd;width:90%;margin-top:40px;padding:20px;background-image:url('coursebot/image10.png');background-repeat:no-repeat;background-size:cover;border-radius:5px;"
+        ></div>
+      </center>
+      <center>
+        <div
+          id="description"
+          style="text-align:left;width:93%;margin-top:20px"
+        >
+          <p style="text-align:justify;text-indent: 50px">
+       You can bookmark the the links that are important using <b>Nova Bookmark Services</b>
+          </p>
+        </div>
+      </center>
+    </div>
+    <div
+    style="width:90%;display:inline-block;margin:10px;text-align:center"
+  >
+    <div
+      id="heading"
+      style="width:100%;float:left;margin-bottom:20px;display:block"
+    >
+      <div
+        style="display:inline-block;width:35px;height:35px;background-color:green;float:left;font-size:25px;border-radius: 3px"
+      >
+        7
+      </div>
+      <div
+        style="display:inline-block;float:left;padding:7px;margin-left:10px"
+      >
+        STEP 7
+      </div>
+    </div>
+    <br />
+    <center>
+      <div
+        id="image"
+        style="height:500px;background-color:#ddd;width:90%;margin-top:40px;padding:20px;background-image:url('coursebot/image0.png');background-repeat:no-repeat;background-size:cover;border-radius:5px;"
+      ></div>
+    </center>
+    <center>
+      <div
+        id="description"
+        style="text-align:left;width:93%;margin-top:20px"
+      >
+        <p style="text-align:justify;text-indent: 50px">
+          Enter a valid Link and title , Hurray ! Your link has been bookmarked
+        </p>
+        <div
+        id="image"
+        style="height:500px;background-color:#ddd;width:90%;margin-top:40px;padding:20px;background-image:url('coursebot/image1.png');background-repeat:no-repeat;background-size:cover;border-radius:5px;"
+      ></div>
+      </div>
+    </center>
+  </div>
+      </div>
+    </div>
+  </body>
+</html>

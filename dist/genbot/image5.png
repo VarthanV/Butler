@@ -1,0 +1,5 @@
+import os 
+data=os.listdir()
+print(data)
+for i,item in enumerate(data):
+    os.rename(item,f'image{i}')

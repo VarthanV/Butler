@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Resume Bot </title>
+    <link rel="stylesheet" href="styles/layout.css" type="text/css" />
+    <style>
+      .dropbtn {
+        background-color: #232323;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        font-size: 17px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #919191;
+        background-color: #232323;
+      }
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+      .dropdown-content a {
+        font-size: 17px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: #919191;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown-content a:hover {
+        background-color: #ddd;
+        text-decoration: underline;
+        color: orange;
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .dropdown:hover .dropbtn {
+        text-decoration: underline;
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- <div class="wrapper row1">
+            <header id="header" class="clear">
+              <div id="hgroup">
+                <h1><a href="index.html"> Butler </a></h1>
+                <h2> A Handmade Extension for Cliq </h2>
+              </div>
+              <div style="float:right">
+              <div class="dropdown" style="font-size:17px; font-family:Georgia, 'Times New Roman', Times, serif; color:#919191; background-color:#232323;">
+                <button class="dropbtn">BOTS</button>
+                <div class="dropdown-content">
+                  <a href="#">GEN BOT</a>
+                  <a href="#">COURSE BOT</a>
+                  <a href="resumebot.html">RESUME BOT</a>
+                </div>
+              </div>
+            </div>
+              
+              
+            </header>
+          
+          
+          </div> -->
+
+      <div
+        style="width:100%;background-color:#333333;height:100px;align-items: center"
+      >
+        <div
+          style="display:inline-block;height:100px;float:left;padding:15px;margin-left:50px"
+        >
+          <div style="width:100%;font-size:36px;color:#C0BAB6">Butler</div>
+          <div style="width:100%;font-size:13px;color:#C0BAB6">
+            A Handmade Extension for Cliq
+          </div>
+        </div>
+
+        <div
+        style="display:inline-block;width:100px;height:100px;float:right;padding:40px;margin-right:10px"
+        >
+          <div class="dropdown">
+            <a href="index.html" class="dropbtn">Home</a>
+          </div>          
+        </div>
+        <div
+          style="display:inline-block;width:100px;height:100px;float:right;padding:25px;margin-right:20px"
+        >
+          <div
+            class="dropdown"
+            style="font-size:17px; font-family:Georgia, 'Times New Roman', Times, serif; color:#919191; background-color:#232323;"
+          >
+            <button class="dropbtn">Bots</button>
+            <div class="dropdown-content">
+              <a href="genbot.html">Gen Bot</a>
+              <a href="coursebot.html">Course Bot</a>
+              <a href="resumebot.html">Resume Bot</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div id="instructions" style="width:100%;text-align:center;margin:20px">
+        <div
+          style="width:90%;display:inline-block;margin:10px;text-align:center"
+        >
+          <div
+            id="heading"
+            style="width:100%;float:left;margin-bottom:20px;display:block"
+          >
+            <div
+              style="display:inline-block;width:35px;height:35px;background-color:green;float:left;font-size:25px;border-radius: 3px"
+            >
+              1
+            </div>
+            <div
+              style="display:inline-block;float:left;padding:7px;margin-left:10px"
+            >
+              Menu
+            </div>
+          </div>
+          <br />
+          <center>
+            <div
+              id="image"
+              style="height:500px;background-color:#ddd;width:60%;margin-top:40px;padding:20px;background-image:url('steps/1.png');background-repeat:no-repeat;background-size:cover;border-radius:5px;"
+            ></div>
+          </center>
+          <center>
+            <div
+              id="description"
+              style="text-align:left;width:68%;margin-top:20px"
+            >
+              <p style="text-align:justify;font-weight:400;letter-spacing: 0.03em;line-height: 20px;">
+                  Say <strong>Hi</strong> to see the resume-bot menu.
+              </p>
+            </div>
+          </center>
+        </div>
+        <div
+        style="width:90%;display:inline-block;margin:10px;text-align:center"
+      >
+        <div
+          id="heading"
+          style="width:100%;float:left;margin-bottom:20px;display:block"
+        >
+          <div
+            style="display:inline-block;width:35px;height:35px;background-color:green;float:left;font-size:25px;border-radius: 3px"
+          >
+            2
+          </div>
+          <div
+            style="display:inline-block;float:left;padding:7px;margin-left:10px"
+          >
+            Creating Resume
+          </div>
+        </div>
+        <br />
+        <center>
+          <div
+            id="image"
+            style="height:500px;background-color:#ddd;width:60%;margin-top:40px;padding:20px;background-image:url('steps/2.png');background-repeat:no-repeat;background-size:cover;border-radius:5px;"
+          ></div>
+        </center>
+        <center>
+          <div
+            id="description"
+            style="text-align:left;width:68%;margin-top:20px"
+          >
+            <p style="text-align:justify;font-weight:400;letter-spacing: 0.03em;line-height: 20px;">
+                Press the <strong>Create Resume</strong> button and enter an unique name to create a new resume file.
+            </p>
+          </div>
+        </center>
+        </div>
+        <div
+        style="width:90%;display:inline-block;margin:10px;text-align:center"
+      >
+        <div
+          id="heading"
+          style="width:100%;float:left;margin-bottom:20px;display:block"
+        >
+          <div
+            style="display:inline-block;width:35px;height:35px;background-color:green;float:left;font-size:25px;border-radius: 3px"
+          >
+            3
+          </div>
+          <div
+            style="display:inline-block;float:left;padding:7px;margin-left:10px"
+          >
+            Editing Resume
+          </div>
+        </div>
+        <br />
+        <center>
+          <div
+            id="image"
+            style="height:500px;background-color:#ddd;width:60%;margin-top:40px;padding:20px;background-image:url('steps/3.png');background-repeat:no-repeat;background-size:cover;border-radius:5px;"
+          ></div>
+        </center>
+        <center>
+          <div
+            id="description"
+            style="text-align:left;width:68%;margin-top:20px"
+          >
+            <p style="text-align:justify;font-weight:400;letter-spacing: 0.03em;line-height: 20px;">
+                After creating your resume file,you can enter or edit it's contents by clicking the <strong>Edit Resume</strong> button. Select the resume you want to edit. Then select the section you want to edit.Then fill each section's contents accordingly.
+            </p>
+          </div>
+        </center>
+        </div>
+        <div
+        style="width:90%;display:inline-block;margin:10px;text-align:center"
+      >
+        <div
+          id="heading"
+          style="width:100%;float:left;margin-bottom:20px;display:block"
+        >
+          <div
+            style="display:inline-block;width:35px;height:35px;background-color:green;float:left;font-size:25px;border-radius: 3px"
+          >
+            4
+          </div>
+          <div
+            style="display:inline-block;float:left;padding:7px;margin-left:10px"
+          >
+            Viewing Resume
+          </div>
+        </div>
+        <br />
+        <center>
+          <div
+            id="image"
+            style="height:500px;background-color:#ddd;width:60%;margin-top:40px;padding:20px;background-image:url('steps/4.png');background-repeat:no-repeat;background-size:cover;border-radius:5px;"
+          ></div>
+        </center>
+        <center>
+          <div
+            id="description"
+            style="text-align:left;width:68%;margin-top:20px"
+          >
+            <p style="text-align:justify;font-weight:400;letter-spacing: 0.03em;line-height: 20px;">
+              To view your resume you should have filled atleast your basic details,then click on the <strong>View Resume</strong> button and select the resume and theme you want to view your resume with.Then you will be provided with a link to view your resume.<br/><em>Themes are various designs you can use to view your resume with. To see all the availabe themes enter <strong>themes</strong> in the resume-bot</em>.
+            </p>
+          </div>
+        </center>
+        </div>
+        <div
+        style="width:90%;display:inline-block;margin:10px;text-align:center"
+      >
+        <div
+          id="heading"
+          style="width:100%;float:left;margin-bottom:20px;display:block"
+        >
+          <div
+            style="display:inline-block;width:35px;height:35px;background-color:green;float:left;font-size:25px;border-radius: 3px"
+          >
+            5
+          </div>
+          <div
+            style="display:inline-block;float:left;padding:7px;margin-left:10px"
+          >
+            Deleting Resume
+          </div>
+        </div>
+        <br />
+        <center>
+          <div
+            id="image"
+            style="height:500px;background-color:#ddd;width:60%;margin-top:40px;padding:20px;background-image:url('steps/5.png');background-repeat:no-repeat;background-size:cover;border-radius:5px;"
+          ></div>
+        </center>
+        <center>
+          <div
+            id="description"
+            style="text-align:left;width:68%;margin-top:20px"
+          >
+            <p style="text-align:justify;font-weight:400;letter-spacing: 0.03em;line-height: 20px;">
+              You can delete an resume file by clicking the <strong>Delete Resume</strong> button and selecting the resume you want to delete.
+            </p>
+          </div>
+        </center>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
